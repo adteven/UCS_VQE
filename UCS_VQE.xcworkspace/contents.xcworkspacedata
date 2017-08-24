@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:sample/ios/UCSVQEDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UcsVQE/ios/UCSVQE.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "webrtc">
+      <Group
+         location = "container:"
+         name = "modules">
+         <Group
+            location = "container:"
+            name = "audio_processing">
+            <FileRef
+               location = "group:webrtc/modules/audio_processing/ios/audio_processing.xcodeproj">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "container:"
+         name = "common_audio">
+         <FileRef
+            location = "group:webrtc/common_audio/ios/common_audio.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "system_wrappers">
+         <FileRef
+            location = "group:webrtc/system_wrappers/ios/system_wrappers.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "base">
+         <FileRef
+            location = "group:webrtc/base/ios/rtc_base.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

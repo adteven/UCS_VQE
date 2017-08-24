@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucsvqe/ucsvqe.iml" filepath="$PROJECT_DIR$/ucsvqe/ucsvqe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucsvqedemo/ucsvqedemo.iml" filepath="$PROJECT_DIR$/ucsvqedemo/ucsvqedemo.iml" />
+    </modules>
+  </component>
+</project>

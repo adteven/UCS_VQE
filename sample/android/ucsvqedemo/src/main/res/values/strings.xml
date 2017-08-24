@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UCSVQEDemo</string>
+    <string name="tip_loader">正在加载UCSVQE库...</string>
+    <string name="tip_ready">初始化完成</string>
+    <string name="tip_processing">正在处理...</string>
+    <string name="tip_done">处理完成</string>
+    <string name="tip_in_neer_open_failed">near.pcm读取错误</string>
+    <string name="tip_in_far_open_failed">far.pcm读取错误</string>
+    <string name="tip_out_data_open_failed">out_data.pcm打开错误</string>
+</resources>

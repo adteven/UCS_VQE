@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50F46691F44735800EC7D4C /* ucs_trace.h in Headers */ = {isa = PBXBuildFile; fileRef = C50F46681F44735800EC7D4C /* ucs_trace.h */; };
+		C50F466B1F44736200EC7D4C /* ucs_vqe.h in Headers */ = {isa = PBXBuildFile; fileRef = C50F466A1F44736200EC7D4C /* ucs_vqe.h */; };
+		C50F466E1F44737B00EC7D4C /* ucs_trace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50F466C1F44737B00EC7D4C /* ucs_trace.cpp */; };
+		C50F466F1F44737B00EC7D4C /* ucs_vqe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C50F466D1F44737B00EC7D4C /* ucs_vqe.cpp */; };
+		C50F46741F44738900EC7D4C /* libaudio_processing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50F46701F44738900EC7D4C /* libaudio_processing.a */; };
+		C50F46751F44738900EC7D4C /* libcommon_audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50F46711F44738900EC7D4C /* libcommon_audio.a */; };
+		C50F46761F44738900EC7D4C /* librtc_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50F46721F44738900EC7D4C /* librtc_base.a */; };
+		C50F46771F44738900EC7D4C /* libsystem_wrappers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50F46731F44738900EC7D4C /* libsystem_wrappers.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C50F442A1F44384500EC7D4C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C50F442C1F44384500EC7D4C /* UCSVQE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = UCSVQE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50F46681F44735800EC7D4C /* ucs_trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucs_trace.h; path = ../include/ucs_trace.h; sourceTree = "<group>"; };
+		C50F466A1F44736200EC7D4C /* ucs_vqe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucs_vqe.h; path = ../include/interface/ucs_vqe.h; sourceTree = "<group>"; };
+		C50F466C1F44737B00EC7D4C /* ucs_trace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucs_trace.cpp; path = ../src/ucs_trace.cpp; sourceTree = "<group>"; };
+		C50F466D1F44737B00EC7D4C /* ucs_vqe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucs_vqe.cpp; path = ../src/ucs_vqe.cpp; sourceTree = "<group>"; };
+		C50F46701F44738900EC7D4C /* libaudio_processing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaudio_processing.a; path = "../../../../../Library/Developer/Xcode/DerivedData/UCS_VQE-awtxsbywjhypgfctanoilgqywaeg/Build/Products/Debug-iphoneos/libaudio_processing.a"; sourceTree = "<group>"; };
+		C50F46711F44738900EC7D4C /* libcommon_audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcommon_audio.a; path = "../../../../../Library/Developer/Xcode/DerivedData/UCS_VQE-awtxsbywjhypgfctanoilgqywaeg/Build/Products/Debug-iphoneos/libcommon_audio.a"; sourceTree = "<group>"; };
+		C50F46721F44738900EC7D4C /* librtc_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librtc_base.a; path = "../../../../../Library/Developer/Xcode/DerivedData/UCS_VQE-awtxsbywjhypgfctanoilgqywaeg/Build/Products/Debug-iphoneos/librtc_base.a"; sourceTree = "<group>"; };
+		C50F46731F44738900EC7D4C /* libsystem_wrappers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystem_wrappers.a; path = "../../../../../Library/Developer/Xcode/DerivedData/UCS_VQE-awtxsbywjhypgfctanoilgqywaeg/Build/Products/Debug-iphoneos/libsystem_wrappers.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50F44291F44384500EC7D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50F46741F44738900EC7D4C /* libaudio_processing.a in Frameworks */,
+				C50F46751F44738900EC7D4C /* libcommon_audio.a in Frameworks */,
+				C50F46761F44738900EC7D4C /* librtc_base.a in Frameworks */,
+				C50F46771F44738900EC7D4C /* libsystem_wrappers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50F44231F44384500EC7D4C = {
+			isa = PBXGroup;
+			children = (
+				C50F44391F4438B100EC7D4C /* source */,
+				C50F44381F4438A800EC7D4C /* include */,
+				C50F442D1F44384500EC7D4C /* Products */,
+				C50F465F1F4472A200EC7D4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C50F442D1F44384500EC7D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50F442C1F44384500EC7D4C /* UCSVQE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50F44381F4438A800EC7D4C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C50F46681F44735800EC7D4C /* ucs_trace.h */,
+				C50F443F1F443A5A00EC7D4C /* interface */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		C50F44391F4438B100EC7D4C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				C50F466C1F44737B00EC7D4C /* ucs_trace.cpp */,
+				C50F466D1F44737B00EC7D4C /* ucs_vqe.cpp */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		C50F443F1F443A5A00EC7D4C /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				C50F466A1F44736200EC7D4C /* ucs_vqe.h */,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		C50F465F1F4472A200EC7D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50F46701F44738900EC7D4C /* libaudio_processing.a */,
+				C50F46711F44738900EC7D4C /* libcommon_audio.a */,
+				C50F46721F44738900EC7D4C /* librtc_base.a */,
+				C50F46731F44738900EC7D4C /* libsystem_wrappers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C50F44411F443AA100EC7D4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50F46691F44735800EC7D4C /* ucs_trace.h in Headers */,
+				C50F466B1F44736200EC7D4C /* ucs_vqe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C50F442B1F44384500EC7D4C /* UCSVQE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50F44351F44384500EC7D4C /* Build configuration list for PBXNativeTarget "UCSVQE" */;
+			buildPhases = (
+				C50F44281F44384500EC7D4C /* Sources */,
+				C50F44291F44384500EC7D4C /* Frameworks */,
+				C50F442A1F44384500EC7D4C /* CopyFiles */,
+				C50F44411F443AA100EC7D4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCSVQE;
+			productName = UCSVQE;
+			productReference = C50F442C1F44384500EC7D4C /* UCSVQE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50F44241F44384500EC7D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ucpaas;
+				TargetAttributes = {
+					C50F442B1F44384500EC7D4C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C50F44271F44384500EC7D4C /* Build configuration list for PBXProject "UCSVQE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C50F44231F44384500EC7D4C;
+			productRefGroup = C50F442D1F44384500EC7D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50F442B1F44384500EC7D4C /* UCSVQE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50F44281F44384500EC7D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50F466F1F44737B00EC7D4C /* ucs_vqe.cpp in Sources */,
+				C50F466E1F44737B00EC7D4C /* ucs_trace.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C50F44331F44384500EC7D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CONFIGURATION_BUILD_DIR = "../../libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../,
+					../../include,
+					../../include/interface,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "../../webrtc/libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C50F44341F44384500EC7D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CONFIGURATION_BUILD_DIR = "../../libs/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../,
+					../../include,
+					../../include/interface,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "../../webrtc/libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50F44361F44384500EC7D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C50F44371F44384500EC7D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50F44271F44384500EC7D4C /* Build configuration list for PBXProject "UCSVQE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50F44331F44384500EC7D4C /* Debug */,
+				C50F44341F44384500EC7D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50F44351F44384500EC7D4C /* Build configuration list for PBXNativeTarget "UCSVQE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50F44361F44384500EC7D4C /* Debug */,
+				C50F44371F44384500EC7D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50F44241F44384500EC7D4C /* Project object */;
+}

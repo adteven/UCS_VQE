@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ef7b661a-46bb-475b-8d72-9362ba0bdd33++509",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ef7b661a-46bb-475b-8d72-9362ba0bdd33++509" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ef7b661a-46bb-475b-8d72-9362ba0bdd33++509" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ECF50352-CF00-493B-82DE-CB4D909C2E60",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ef7b661a-46bb-475b-8d72-9362ba0bdd33++509" : "UCS_VQE\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UCS_VQE",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UCS_VQE.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.16.10.122\/svn\/softphone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ef7b661a-46bb-475b-8d72-9362ba0bdd33++509"
+    }
+  ]
+}

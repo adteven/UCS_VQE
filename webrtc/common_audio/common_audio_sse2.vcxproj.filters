@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="fir_filter_sse.cc" />
+    <None Include="common_audio.gyp" />
+    <ClCompile Include="resampler\sinc_resampler_sse.cc">
+      <Filter>resampler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resampler">
+      <UniqueIdentifier>{fe2e5cd1-44e1-476f-83b3-37936c9b9005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

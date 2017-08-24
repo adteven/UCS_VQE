@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\overrides">
+      <UniqueIdentifier>{84AD2EB6-5184-86E2-7EC9-59E84A4DB552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\overrides\webrtc">
+      <UniqueIdentifier>{543055F1-DB92-5041-CF1C-6916DDF7679F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\overrides\webrtc\base">
+      <UniqueIdentifier>{DBBAC0A6-BB0A-CA51-45CC-DA4574B671E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\overrides\webrtc\base\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constructormagic.h" />
+    <ClInclude Include="scoped_ptr.h" />
+    <ClInclude Include="scoped_ref_ptr.h" />
+    <ClInclude Include="checks.h" />
+    <ClInclude Include="thread_annotations.h" />
+    <ClInclude Include="criticalsection.h" />
+    <ClInclude Include="template_util.h" />
+    <ClInclude Include="arraysize.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="checks.cc" />
+  </ItemGroup>
+</Project>
